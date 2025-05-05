@@ -1,0 +1,76 @@
+/* Stilet për tablet */
+@media (min-width: 721px) and (max-width: 960px) {
+  .footer-div {
+    padding: 2.5rem 2rem;
+  }
+  .social-footer ul {
+    margin: 1.875rem 0 0 2rem;
+  }
+  .footer-links {
+    margin: 1.875rem 0 0 -2.5rem;
+  }
+  .destination-list {
+    margin-left: 1rem !important;
+  }
+}
+/* Stilet për mobile */
+@media (min-width: 481px) and (max-width: 720px) {
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer-div {
+    padding: 2rem 3rem;
+    width: auto;
+  }
+  .footer-title {
+    font-size: 1.5rem;
+  }
+  .logo-footer img {
+    width: 4rem;
+  }
+  .social-footer ul {
+    display: flex;
+    margin: 1.875rem 0 0 2rem;
+  }
+  .social-footer ul li {
+    margin-left: 1.5rem;
+  }
+  .destination-list {
+    margin-left: 0.8rem !important;
+  }
+  .footer-links ul li {
+    margin-top: 0.625rem;
+  }
+}
+/* Stilet për small mobile */
+@media (max-width: 480px) {
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer-div {
+    padding: 2rem;
+    width: auto;
+  }
+  .footer-title {
+    font-size: 1.5rem;
+  }
+  .logo-footer img {
+    width: 4rem;
+  }
+  .social-footer ul {
+    display: flex;
+    margin: 1.875rem 0 0 2rem;
+  }
+  .social-footer ul li {
+    margin-left: 1.5rem;
+  }
+  .destination-list {
+    margin-left: 0 !important;
+    padding-left: 1rem;
+  }
+  .footer-links ul li {
+    margin-top: 0.625rem;
+  }
+}

@@ -1,0 +1,162 @@
+/* Stilet për tablet */
+@media (min-width: 721px) and (max-width: 960px) {
+  /* SECTION 1 */
+  .section-1-destination {
+    display: flex;
+    flex-direction: column;
+  }
+  .s1-img {
+    margin: 2rem 0 0 0;
+  }
+  .s1-txt-description {
+    margin: 6.25rem 8.5rem 0 10.125rem;
+  }
+  .s1-subtext {
+    text-align: center;
+  }
+  .s1-title {
+    text-align: center;
+  }
+  .s1-parag {
+    text-align: center;
+  }
+  /* SECTION 1 END */
+
+  /* SECTION 2 */
+  .img-left {
+    margin-left: 1rem;
+  }
+  .img-right {
+    margin-right: 1rem;
+  }
+  .left-position {
+    margin: 1.875rem 2rem 0 1rem;
+  }
+  .right-position {
+    margin: 1.875rem 1rem 0 2rem;
+  }
+  /* SECTION 2 END */
+}
+
+/* Stilet për mobile */
+@media (min-width: 481px) and (max-width: 720px) {
+  /* SECTION 1 */
+  .section-1-destination {
+    display: flex;
+    flex-direction: column;
+  }
+  .s1-img {
+    margin: 2rem 0 0 0;
+  }
+  .s1-img img {
+    width: 22rem;
+    height: 25.125rem;
+  }
+  .s1-txt-description {
+    margin: 6.25rem 5rem 0 5rem;
+  }
+  .s1-subtext {
+    text-align: center;
+  }
+  .s1-title {
+    text-align: center;
+  }
+  .s1-parag {
+    text-align: center;
+  }
+  /* SECTION 1 END */
+
+  /* SECTION 2 */
+  .div-flex {
+    display: flex;
+    padding: 1.5rem 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .img-left {
+    margin-left: 0;
+  }
+  .img-right {
+    margin-right: 0;
+  }
+  .left-position {
+    margin: 1.5rem 4rem;
+  }
+  .right-position {
+    margin: 1.5rem 4rem;
+  }
+  .travel-description-p {
+    text-align: center;
+  }
+  /* SECTION 2 END */
+}
+
+/* Stilet për small mobile */
+@media (max-width: 480px) {
+  /* SECTION 1 */
+  .section-1-destination {
+    display: flex;
+    flex-direction: column;
+  }
+  .s1-img {
+    margin: 2rem 0 0 0;
+  }
+  .s1-img img {
+    width: 20rem;
+    height: 23.125rem;
+  }
+  .s1-txt-description {
+    margin: 6.25rem 2rem 0 2rem;
+  }
+  .s1-subtext {
+    text-align: center;
+  }
+  .s1-title {
+    text-align: center;
+  }
+  .s1-parag {
+    text-align: center;
+  }
+  /* SECTION 1 END */
+
+  /* SECTION 2 */
+  .s2-img {
+    width: 22rem;
+    height: 15.75rem;
+    object-fit: cover;
+    border-radius: 1.25rem;
+  }
+  .div-flex {
+    display: flex;
+    padding: 1.5rem 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .img-left {
+    margin-left: 0;
+  }
+  .img-right {
+    margin-right: 0;
+  }
+  .left-position {
+    margin: 1.5rem 2rem;
+  }
+  .right-position {
+    margin: 1.5rem 2rem;
+  }
+  .travel-description-p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  /* SECTION 2 END */
+}
